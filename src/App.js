@@ -1,6 +1,7 @@
-import Flowchart from '../components/Flowchart'
+import React from 'react';
+import Flowchart from './components/Flowchart';
 
-export default function Home() {
+function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-100 to-white">
       <header className="bg-blue-600 text-white py-6 mb-8">
@@ -10,6 +11,8 @@ export default function Home() {
         <Flowchart />
       </main>
     </div>
-  )
+  );
 }
+
+export default App;
 

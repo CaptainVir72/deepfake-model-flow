@@ -1,0 +1,18 @@
+.step1 {
+    margin-bottom: 20px;
+  }
+  
+  .model-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .model-list button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  

@@ -1,0 +1,25 @@
+.step3 .weights-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .weight-item {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .choice-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .choice-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
