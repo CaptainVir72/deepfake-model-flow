@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 
 const Step1 = ({ onModelSelect, selectedModel }) => {
-  const models = ['Anomaly', 'CrossVit', 'PPG', 'Audio', 'Comprehensive']
+  const models = ['Anomaly', 'Efficient Net', 'PPG', 'Audio', 'Comprehensive']
 
   return (
     <Card className="w-full mb-6">

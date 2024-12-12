@@ -48,7 +48,7 @@ const TableCell = ({ children, className, ...props }) => (
 const ClassificationReport = ({ model }) => {
   const getReportData = () => {
     switch (model) {
-      case 'CrossVit':
+      case 'Efficient Net':
         return [
           { metric: 'Precision', class1: '0.92', class2: '0.88', class3: '0.90', class4: '0.95' },
           { metric: 'Recall', class1: '0.90', class2: '0.85', class3: '0.92', class4: '0.93' },

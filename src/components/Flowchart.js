@@ -33,8 +33,8 @@ const Flowchart = () => {
     switch (selectedModel) {
       case 'Anomaly':
         return '/anomalyflow.png'
-      case 'CrossVit':
-        return '/crossvitflow.png'
+      case 'Efficient Net':
+        return '/efficientnetflow.png'
       case 'PPG':
         return '/ppgflow.png'
       case 'Audio':
@@ -47,13 +47,13 @@ const Flowchart = () => {
   const getAdditionalImage = () => {
     switch (selectedModel) {
       case 'Anomaly':
-        return '/graph.jpg'
-      case 'CrossVit':
-        return '/confusionmatrix1.jpg'
+        return '/graph.png'
+      case 'Efficient Net':
+        return '/confusionmatrix1.png'
       case 'PPG':
-        return '/confusionmatrix2.jpg'
+        return '/confusionmatrix2.png'
       case 'Audio':
-        return '/confusionmatrix3.jpg'
+        return '/confusionmatrix3.png'
       default:
         return null
     }
@@ -80,7 +80,7 @@ const Flowchart = () => {
               className="w-full h-auto rounded-lg shadow-lg"
             />
           )}
-          {(selectedModel === 'CrossVit' || selectedModel === 'PPG' || selectedModel === 'Audio') && (
+          {(selectedModel === 'Efficient Net' || selectedModel === 'PPG' || selectedModel === 'Audio') && (
             <ClassificationReport model={selectedModel} />
           )}
         </div>

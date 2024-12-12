@@ -4,10 +4,10 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const Step2 = () => {
   const models = [
-    { name: 'Anomaly', description: 'Detects unusual patterns or outliers in data.' },
-    { name: 'CrossVit', description: 'Cross-modal vision transformer for image analysis.' },
-    { name: 'PPG', description: 'Photoplethysmography for heart rate estimation from video.' },
-    { name: 'Audio', description: 'Analyzes audio features for deepfake detection.' }
+    { name: 'Anomaly', description: 'This model detects irregularities in data by analyzing deviations from expected behavior, which are indicative of deepfake manipulations or unusual patterns.' },
+    { name: 'CrossVit', description: 'A vision transformer model that combines features from multiple image scales to enhance detection accuracy, making it highly effective for recognizing subtle inconsistencies in deepfake visuals.' },
+    { name: 'PPG', description: 'Focuses on analyzing physiological signals like blood flow variations in the face, enabling detection of deepfakes by identifying unnatural patterns in pulse rhythms.' },
+    { name: 'Audio', description: 'Evaluates the synchronization of audio and visual cues, detecting mismatches in speech patterns, lip movements, and acoustic anomalies characteristic of deepfakes.' }
   ]
 
   return (
